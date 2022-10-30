@@ -1,5 +1,6 @@
 body {
-    background-color: rgba(34, 34, 92, 0.932);
+    /* background-color: rgba(34, 34, 92, 0.932); */
+    background: linear-gradient(blue, 10%, pink);
     margin: 0px;
     padding: 0px;
 }
@@ -23,7 +24,7 @@ a {
 }*/
 
 .navbar {
-    background-color: rgba(34, 34, 92, 0.932);
+    background: linear-gradient(blue, 10%);
     border-bottom: 7px solid yellow;
 }
 
@@ -112,14 +113,15 @@ h1 {
     line-height: 0px;
 }
 
-.text-container {
-    /* position: absolute;
+
+/* .text-container {
+    position: absolute;
     -ms-grid-row-align: center;
     margin-left: 40%;
     left: 13%;
     top: 42%;
-    transform: translate(-13%, -42%); */
-}
+    transform: translate(-13%, -42%);
+} */
 
 #text-container {
     margin-top: 10rem;
@@ -157,7 +159,7 @@ h1 {
 
 #about {
     margin-top: 5rem;
-    background: yellow;
+    /* background: yellow; */
     width: 85%;
     height: 330px;
     border-radius: 10px;
